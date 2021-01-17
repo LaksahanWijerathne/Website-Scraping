@@ -1,3 +1,5 @@
+# This is my frist real world Program after finished my python cource  
+
 import requests
 import openpyxl
 from bs4 import BeautifulSoup
@@ -63,6 +65,7 @@ def onepagecycle():
 # print(len(discription))
 # print(len(product_title))
 # print(imagelink)
+# Test code for all pages that how works 
 response = requests.get("https://plugintheme.net/shop/page/")
 onepagecycle()
 response = requests.get("https://plugintheme.net/shop/page/2/")
